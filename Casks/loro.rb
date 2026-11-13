@@ -1,9 +1,9 @@
 cask "loro" do
   arch arm: "apple", intel: "intel"
 
-  version "0.4.8"
-  sha256 arm:   "c606327c1a05b919438b9dde4a68ef4113bd0627ae3ff26a54c0efe8957880c5",
-         intel: "9b5c271abb0433c34758b4ec52f593ff64214cbffcf25b93c0f91c2128934f95"
+  version "0.4.9"
+  sha256 arm:   "7debcbd8d017e91eb15502e85d2ccf73d86d8a16d16ddfe8c31b224b00839335",
+         intel: "6eb764f57cccb832e349c837c633fd4a1a2efa02f70a7c36083c9b3a855adcee"
 
   url "https://github.com/Arturob95/loro-releases/releases/download/v#{version}/Loro-mac-#{arch}.dmg",
       verified: "github.com/Arturob95/loro-releases/"
